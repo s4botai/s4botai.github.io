@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>s4botai's Blog | Blog</title>
+  
+  <link rel="stylesheet" href="/assets/css/blog.css" />
+  
+  <link rel="stylesheet" href="/assets/css/common.css" />
+  <script src="/assets/js/categories.js"></script>
+  <script>
+    const currentTheme = localStorage.getItem("theme");
+    if (currentTheme) {
+      document.documentElement.setAttribute(
+        "data-theme",
+        localStorage.getItem("theme")
+      );
+    }
+  </script>
+  
+</head>
+
+  <body>
+    <main>
+      <header>
+  <a class="site-title" href="/">s4botai's Blog</a>
+  <!-- dark/light mode -->
+  <span id="dark-mode-toggle" style="cursor: pointer">
+    <svg
+      stroke="currentColor"
+      fill="currentColor"
+      stroke-width="0"
+      viewBox="0 0 16 16"
+      height="1.2em"
+      width="1.2em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm0 13V2a6 6 0 1 1 0 12z"
+      ></path>
+    </svg>
+  </span>
+</header>
+ <section id="bio">
+  <section id="img-wrapper">
+    <img src="https://avatars.githubusercontent.com/u/128468264?s=400&u=60d59df74b7cf7873e3fb5455039c9dba837824a&v=4" alt="" />
+  </section>
+  <section id="bio-wrapper">
+    <div id="text-wrapper"> <p> I'm s4botai, a cybersecurity enthusiast. Read team penetration tester and CTF player, future bug bounty hunter. </p> <br/> <p> You should follow me on <a href='https://github.com/s4botai' target='_blank'>Github</a> </P> </div>
+    <div id="social-wrapper">
+      
+      <a href="https://s4botai.github.io" target="_blank">
+        <img src="/assets/icons/linkedin.png" alt="" />
+      </a>
+      
+      <a href="https://github.com/s4botai" target="_blank">
+        <img src="/assets/icons/github.png" alt="" />
+      </a>
+      
+      <a href="https://x.com/s4botai77563" target="_blank">
+        <img src="/assets/icons/twitter.png" alt="" />
+      </a>
+      
+    </div>
+  </section>
+</section>
+
+      <section class="articles">
+        
+        <article class="article">
+          <h2 class="article-title">
+            <a href="/posts/DockerLabs-Wallet-writeup/"> DockerLabs Wallet Writeup </a>
+          </h2>
+          <small class="date">10 Sep 2024</small>
+          <div class="categories">
+            
+            <a href="#!" data-base-url="" class="category"
+              >Writeup</a
+            >
+            
+            <a href="#!" data-base-url="" class="category"
+              >Linux</a
+            >
+            
+            <a href="#!" data-base-url="" class="category"
+              >DockerLabs</a
+            >
+            
+          </div>
+        </article>
+        
+      </section>
+      <footer>
+  <p>&copy; 1947 - 2024 | s4botai's Blog</p>
+</footer>
+<script src="/assets/js/mode.js" defer></script>
+
+    </main>
+    <section id="category-modal-bg"></section>
+<section id="category-modal">
+  <h1 id="category-modal-title"></h1>
+  <section id="category-modal-content"></section>
+</section>
+
+  </body>
+</html>
