@@ -20,9 +20,9 @@ title                    : "s4botai.io"
 title_separator          : "-"
 name                     : "s4botai"
 description              : "Posts about security, CTFs and networking"
-url                      : "https://snowscan.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://s4botai.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "slemire/slemire.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "s4botai/s4botai.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
