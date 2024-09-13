@@ -19,7 +19,7 @@ tags:
 ---
 
 
-# Enumeración
+## Enumeración
 
 Iniciamos el proceso de enumeración ejecutando el siguiente comando con `nmap`:
 
@@ -64,7 +64,7 @@ Entrando al subdminio `panel.wallet.dl` vemos que nos carga un formulario para r
 
 ![Image 3](/assets/images/wallet/wallos.png)
 
-# Intrusión
+## Intrusión
 
 Si buscamos por vulnerabilidades de wallos, nos encontramos con un `Authenticated RCE` en versiones anteriores a la 1.11.2 ([Link al PoC](https://www.exploit-db.com/exploits/51924))
 
@@ -78,7 +78,7 @@ Nuestra shell se guarda en `images/uploads/logos/`, nos dirigimos allí y nos en
 
 ![Image 6](/assets/images/wallet/netcat.png)
 
-# Escalada
+## Escalada
 
 Primero vamos a cambiarnos a una shell completamente interactiva de la siguiente manera:
 
