@@ -19,6 +19,9 @@ tags:
 ---
 
 
+![Image](/assets/images/wallet/wallet.jpeg)
+
+
 ## Enumeración
 
 Iniciamos el proceso de enumeración ejecutando el siguiente comando con `nmap`:

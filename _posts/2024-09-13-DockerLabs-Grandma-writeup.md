@@ -20,6 +20,9 @@ tags:
     - lfi
 ---
 
+![Image](/assets/images/grandma/grandma.png)
+
+
 <br>
 
 >`Nota:`
